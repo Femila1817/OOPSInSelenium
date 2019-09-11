@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Parameter Test Automation Suite" verbose="1">
+	<test name="Feature Test">
+	
+<!--	<paramter name="env" value="QA" /> -->
+	<parameter name="browser" value="chrome" />
+	<parameter name="url" value="https://www.facebook.com" />
+	<parameter name="emailid" value="mijainscribe@gmail.com" />
+	
+	
+		<classes>
+			<class name="com.MyTest.BaseTest.class" />
+			
+		</classes>
+	</test>
+
+
+</suite>
